@@ -25,7 +25,8 @@ These files have been tested and used to generate a live ELK deployment on Azure
  
   [metricbeat_config.yml](https://github.com/Zangaruk/Project_1/blob/main/ansible/metricbeat_config.yml)
     
-    *note metricbeat and filebeat have to be ran after the elk server is set and playbook is ran, but they can be ran in either order (filebeat then metricbeat or metricbeat then filebeat) you also want both of these config files.*
+   *note metricbeat and filebeat have to be ran after the elk server is set and playbook is ran, but they can be ran in either order (filebeat then metricbeat or 
+   metricbeat then filebeat) you also want both of these config files.*
 
 This document contains the following details:
 - Description of the Topologu
