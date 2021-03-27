@@ -14,11 +14,15 @@ These files have been tested and used to generate a live ELK deployment on Azure
   [install-elk.yml](https://github.com/Zangaruk/Project_1/blob/main/ansible/install-elk.yml)
   
   The link below takes you to the playblook that will help setup your filebeat which should be ran after your elk server is set along with the config file.
+ 
   [filebeat-playbook.yml](https://github.com/Zangaruk/Project_1/blob/main/ansible/filebeat-playbook.yml)
+ 
   [filebeat_config.yml](https://github.com/Zangaruk/Project_1/blob/main/ansible/filebeat_config.yml)
 
   The link below takes you to the playblook that will help setup your metricbeat which should be ran after your elk server is set along with the config file.
+ 
   [metricbeat-playbook.yml](https://github.com/Zangaruk/Project_1/blob/main/ansible/metricbeat-playbook.yml)
+ 
   [metricbeat_config.yml](https://github.com/Zangaruk/Project_1/blob/main/ansible/metricbeat_config.yml)
     *note metricbeat and filebeat have to be ran after the elk server is set and playbook is ran, but they can be ran in either order (filebeat then metricbeat or metricbeat then filebeat) you also want both of these config files.*
 
