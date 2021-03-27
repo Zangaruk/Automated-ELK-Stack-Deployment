@@ -99,6 +99,7 @@ Your web(s) server Ex. 10.0.0.5
 We have installed the following Beats on these machines: Filebeat and Metricbeat
 
 These Beats allow us to collect the following information from each machine:
+
 Filebeasts collects log events.
 Metricbeats monitors operating systems metrics, and system services.
 ### Using the Playbook
