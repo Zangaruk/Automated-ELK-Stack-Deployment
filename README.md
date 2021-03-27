@@ -8,9 +8,11 @@ The files in this repository were used to configure the network depicted below.
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
   The link below takes you to the playbook that will help setup your ansible. This would be your first step.
+  
   [ansible-playbook.yml](https://github.com/Zangaruk/Project_1/blob/main/ansible/ansible-playbook.yml)
   
   The link below takes you to the playbook that will help setup you elk container. This would be your second step.
+  
   [install-elk.yml](https://github.com/Zangaruk/Project_1/blob/main/ansible/install-elk.yml)
   
   The link below takes you to the playblook that will help setup your filebeat which should be ran after your elk server is set along with the config file.
@@ -65,13 +67,13 @@ Machines within the network can only be accessed by you the user via the Jumpbox
 
 A summary of the access policies in place can be found in the table below.
 
-| Name       | Publicly Accessible | Allowed IP Addresses   |
-|------------|---------------------|------------------------|
-| Jumpbox    | no                  | <Host Machines Pub IP> |
-| ELK-SERVER | no                  | <Host Machines Pub IP> |
-| Web1       | no                  | <Host Machines Pub IP> |
-| Web2       | no                  | <Host Machines Pub IP> |
-| Web3       | no                  | <Host Machines Pub IP> |
+| Name       | Publicly Accessible | Allowed IP Addresses |
+|------------|---------------------|----------------------|
+| Jumpbox    | no                  | Host Machines Pub IP |
+| ELK-SERVER | no                  | Host Machines Pub IP |
+| Web1       | no                  | Host Machines Pub IP |
+| Web2       | no                  | Host Machines Pub IP |
+| Web3       | no                  | Host Machines Pub IP |
 
 ### Elk Configuration
 
