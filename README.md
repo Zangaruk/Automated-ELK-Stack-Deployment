@@ -111,4 +111,4 @@ In order to use the playbook, you will need to have an Ansible control node alre
     *Answer: Update the you Elk_install.yml to include your remote_user and host name from the ansible.cfg
 
 - _Which URL do you navigate to in order to check that the ELK server is running?
-    *Answer: First run the playbook ansible-playbook Elk_install.yml http://<ELK-SERVER's pub IP>:5601*
+    *Answer: First run the playbook [ansible-playbook Elk_install.yml] http://<ELK-SERVER's pub IP>:5601*
