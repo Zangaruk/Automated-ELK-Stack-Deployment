@@ -1,7 +1,7 @@
 # Project_1
 ## Automated ELK Stack Deployment
 
-The files in this repository were used to configure the network depicted below.
+The files in this repository were used to configure the microsoft azure network depicted below.
 
 ![image alt text](https://github.com/Zangaruk/Project_1/blob/main/diagrams/Cloud_Diagram.jpg)
 
